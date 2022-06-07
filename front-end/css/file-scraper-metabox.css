@@ -1,0 +1,51 @@
+.scraper-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.scraper-url-input {
+    font-size: 1.1em;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.scraper-btn {
+    width: 100%;
+    background: grey;
+    color: black;
+    font-size:1.1em;
+    height: 40px;
+}
+ 
+.scraper-output {
+    font-size: 1.1em;
+    color: black;
+    width: 100%;
+}
+
+.site-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-block {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link-block > p {
+    font-size: 1.3em;
+}
+
+.link-btn {
+    background: green;
+    color: white;
+    font-size: 1.1em;
+    height: 40px;
+}
